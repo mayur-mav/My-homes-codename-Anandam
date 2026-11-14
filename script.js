@@ -95,24 +95,26 @@
           tab.classList.toggle("is-active", isActive);
         });
         floorplanPanel.setAttribute("aria-labelledby", `floorplan-tab-${index}`);
+        const hasSecond = Boolean(plan.secondImage);
         floorplanPanel.innerHTML = `
           <div class="floorplan-stage-col">
             <div class="floorplan-stage-card">
-              <div class="floorplan-plans-grid">
+              <div class="floorplan-plans-grid${hasSecond ? "" : " is-single-plan"}">
                 <figure class="floorplan-plan-preview">
-                  <figcaption class="floorplan-plan-label">Ground &amp; First Floor</figcaption>
+                  <figcaption class="floorplan-plan-label">${escapeHtml(hasSecond ? "Ground & First Floor" : (plan.tabName || plan.name) + " Unit Layout")}</figcaption>
                   <div class="floorplan-image-wrap">
-                    <img class="floorplan-stage-img" src="${escapeHtml(plan.image)}" alt="${escapeHtml(plan.tabName || plan.name)} ground and first floor plan" loading="lazy" decoding="async" draggable="false">
+                    <img class="floorplan-stage-img" src="${escapeHtml(plan.image)}" alt="${escapeHtml(plan.tabName || plan.name)} unit floor plan" loading="lazy" decoding="async" draggable="false">
                     <span class="floorplan-image-fade" aria-hidden="true"></span>
                   </div>
                 </figure>
+                ${hasSecond ? `
                 <figure class="floorplan-plan-preview">
                   <figcaption class="floorplan-plan-label">Second &amp; Third Floor</figcaption>
                   <div class="floorplan-image-wrap">
-                    <img class="floorplan-stage-img" src="${escapeHtml(plan.secondImage)}" alt="${escapeHtml(plan.tabName || plan.name)} second and third floor plan" loading="lazy" decoding="async" draggable="false">
+                    <img class="floorplan-stage-img" src="${escapeHtml(plan.secondImage)}" alt="${escapeHtml(plan.tabName || plan.name)} second floor plan" loading="lazy" decoding="async" draggable="false">
                     <span class="floorplan-image-fade" aria-hidden="true"></span>
                   </div>
-                </figure>
+                </figure>` : ""}
                 <div class="floorplan-lock-shade">
                   <div class="lock-circle-badge" aria-hidden="true">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>

@@ -5,467 +5,403 @@ window.anandamData = window.florenneData = {
   // ==========================================================================
   leadApiUrl: "",
 
-  projectName: "My Home Codename Anandam",
+  projectName: "Codename Anandam",
   developerName: "My Home Group",
-  locationName: "Whitefield Annex, Kadugodi-Hoskote Road, Bengaluru",
+  locationName: "Whitefield Annex, Whitefield-Hoskote Road, East Bengaluru",
   salesPhone: "+91 74116 62228",
   salesWhatsappNumber: "917411662228",
 
   facts: [
-    { value: "52+ Acres", label: "Biophilic Township" },
-    { value: "G + 48", label: "Iconic High-Rise Towers" },
-    { value: "1,00,000+ Sq. Ft.", label: "Mega Grand Clubhouse" },
-    { value: "2, 3 & 4 BHK", label: "1,225 - 2,650 Sq. Ft." }
+    { value: "52.5 Acres", label: "Mixed-Use Township" },
+    { value: "20+ Towers", label: "Up to 44 Floors" },
+    { value: "1 Lakh+ Sq. Ft.", label: "Clubhouse" },
+    { value: "2, 3 & 4 BHK", label: "~1,255 to ~2,610 Sq. Ft." }
   ],
   statsRibbon: [
-    { value: "52+ Acres", label: "INTEGRATED TOWNSHIP" },
-    { value: "G + 38 to 48", label: "ICONIC TOWER FLOORS" },
-    { value: "1,225 - 2,650", label: "SQ. FT. RANGE" },
+    { value: "52.5 Acres", label: "MIXED-USE DEVELOPMENT" },
+    { value: "3B + G + 38 to 44", label: "TOWER FLOORS" },
+    { value: "~1,255 - 2,610", label: "SQ. FT. RANGE" },
     { value: "2, 3 & 4 BHK", label: "CONFIGURATIONS" },
-    { value: "Pre-Launch / EOI", label: "PROJECT STATUS" },
-    { value: "80%", label: "OPEN BIOPHILIC GREENS" },
-    { value: "1,00,000+ Sq Ft", label: "GRAND CLUBHOUSE CAMPUS" },
-    { value: "My Home Group", label: "GRADE-A MASTER DEVELOPER" }
+    { value: "Late 2029 / 2030", label: "POSSESSION" },
+    { value: "5,000+", label: "APARTMENTS" },
+    { value: "1 Lakh+ Sq. Ft.", label: "CLUBHOUSE" },
+    { value: "My Home Group", label: "40+ YEARS LEGACY" }
   ],
   projectDetails: [
-    { label: "Project", value: "My Home Codename Anandam, Whitefield Annex, Bengaluru" },
-    { label: "Developer", value: "My Home Group (40+ Years of Engineering Pedigree)" },
-    { label: "Architectural Concept", value: "Biophilic Forest-Themed Township with Vehicle-Free Podiums" },
-    { label: "Location", value: "Kadugodi-Hoskote Road (SH-35), Whitefield Annex, Bengaluru 560067" },
-    { label: "Land & Expanse", value: "52+ Acres (80% Dedicated Open Landscape & 3,000+ Native Trees)" },
-    { label: "Towers & Scale", value: "27 Towers Planned (Phase 1: 8 Towers, G+38 to G+48 Floors)" },
-    { label: "Structure", value: "Seismic Zone II Compliant Shear Wall RCC Framework" },
-    { label: "Configurations", value: "2 BHK, 2.5 BHK, 3 BHK (Comfort & Grand) & 4 BHK Luxury Suites" },
-    { label: "Saleable Area", value: "1,225 to 2,650 sq. ft. (Low Density: 4 to 6 Units Per Floor)" },
-    { label: "Indicative Pricing", value: "From ₹1.35 Cr* Onwards (Special Pre-Launch Advantage)" },
-    { label: "Clubhouse", value: "Palatial 1,00,000+ Sq. Ft. Central Clubhouse on a 2-Acre Campus" },
-    { label: "Possession Timeline", value: "Phase 1: Late 2029 - 2030 (Phased Handover)" },
-    { label: "RERA Status", value: "Karnataka RERA Applied / Pre-Launch Expression of Interest (EOI)" }
+    { label: "Project", value: "Codename Anandam (Bengaluru Debut)" },
+    { label: "Developer", value: "My Home Group" },
+    { label: "Architectural Concept", value: "Forest-themed mixed-use development built around unhurried everyday joy" },
+    { label: "Location", value: "Whitefield Annex, Whitefield-Hoskote Road (SH-35), Konadasapura, East Bengaluru" },
+    { label: "Land & Expanse", value: "52.5 Acres with vehicle-free podiums, landscaped zones, and 3,000+ trees" },
+    { label: "Towers & Scale", value: "20+ towers rising up to 44 floors (Phase 1 features 8 towers and ~1,840 units)" },
+    { label: "Structure", value: "3 Basements + Ground + 38 to 44 Floors" },
+    { label: "Configurations", value: "Premium 2, 3 & 4 BHK Residences" },
+    { label: "Saleable Area", value: "~1,255 sq. ft. to ~2,610 sq. ft. (Low density: 4 to 6 units per floor)" },
+    { label: "Indicative Pricing", value: "Starting from approx. ₹1.60 Cr* up to ₹3.72 Cr*" },
+    { label: "Clubhouse", value: "~1 Lakh+ sq. ft. central clubhouse on a ~2-acre campus" },
+    { label: "Possession Timeline", value: "Expected by Late 2029 to December 2030 (Phase 1)" },
+    { label: "RERA Status", value: "Subject to RERA Registration / Priority Registration Open (CSF)" }
   ],
   highlights: [
-    "A landmark 52-acre integrated township marking the grand Bengaluru entry of Hyderabad's most trusted Grade-A developer, My Home Group.",
-    "Biophilic forest-themed living featuring over 3,000 native shade trees, continuous eco-trails, and 80% open-to-sky podium landscapes.",
-    "Sky-scraping residential towers ascending up to G+48 floors, offering uninterrupted 360-degree panoramic skyline views across Whitefield.",
-    "Palatial 1,00,000+ sq. ft. central clubhouse campus complete with resort-style pools, indoor badminton/squash courts, gym, and wellness spa.",
-    "Low-density floor layouts with only 4 to 6 apartments per floor, ensuring abundant natural light, privacy, and expansive corner viewing balconies.",
-    "Strategic address on the Kadugodi-Hoskote Road (SH-35) corridor, minutes from Kadugodi Metro, ITPL tech corridor, and Old Madras Road (NH-75)."
+    "A 52.5-acre landmark mixed-use development in Whitefield Annex, marking the grand Bengaluru debut of the My Home Group after a 40-year legacy.",
+    "Premium 2, 3 & 4 BHK residences ranging from ~1,255 to ~2,610 sq. ft., spread across 20+ towers rising up to 44 floors.",
+    "Low-density floor layouts featuring only 4 to 6 apartments per floor to ensure maximum privacy and space.",
+    "Features a ~1 Lakh+ sq. ft. clubhouse on a ~2-acre campus with 50+ indoor and outdoor amenities, plus exclusive clubhouse guest suites.",
+    "A highly sustainable, forest-themed community with over 3,000 trees, eco trails, acres of car-free podium amenities, community parks, solar power, and groundwater recharge.",
+    "Integrated living with an exclusive temple, a business centre, and landmark retail and Grade-A office spaces within the premises.",
+    "Strategic position directly on Whitefield-Hoskote Road, providing seamless access to Bearys Global Research Triangle, ITPL, and the Whitefield (Kadugodi) Purple Line Metro."
+  ],
+  perfectFor: [
+    "Families seeking a premium long-term lifestyle in an expansive 52.5-acre forest-themed township",
+    "IT professionals and tech leaders looking for swift commutes to Bearys GRT (3 mins), Whitefield Metro (15 mins), and ITPL",
+    "Smart investors targeting high early-stage capital appreciation backed by My Home Group's Grade-A pedigree"
   ],
   overviewShowcase: [
-    { src: "assets/towers-dusk.webp", alt: "Sky-scraping iconic residential towers at My Home Codename Anandam at dusk", caption: "ARTIST'S IMPRESSION — G+48 HIGH-RISE TOWERS" },
-    { src: "assets/curved-clubhouse.webp", alt: "Grand 1,00,000 sq ft central clubhouse at My Home Codename Anandam", caption: "ARTIST'S IMPRESSION — 1,00,000+ SQ FT CLUBHOUSE CAMPUS" },
-    { src: "assets/tower-pool.webp", alt: "Resort swimming pool and podium gardens framed by towers at My Home Codename Anandam", caption: "ARTIST'S IMPRESSION — RESORT OLYMPIC POOL & SUN DECKS" },
-    { src: "assets/living-dining.webp", alt: "Expansive luxury living room and formal dining with panoramic balcony views", caption: "ARTIST'S IMPRESSION — EXPANSIVE LIVING & FORMAL DINING" },
-    { src: "assets/tower-day.webp", alt: "Modern architectural facade and biophilic podium landscape", caption: "ARTIST'S IMPRESSION — BIOPHILIC PODIUM & ARCHITECTURE" },
-    { src: "assets/tree-driveway.webp", alt: "Grand tree-lined avenue and entrance boulevard across 52-acre township", caption: "ARTIST'S IMPRESSION — 80% DEDICATED OPEN GREEN SANCTUARY" }
+    { src: "assets/01-residential-towers.webp", alt: "Sky-scraping iconic residential towers rising up to 44 floors at My Home Codename Anandam", caption: "ARTIST'S IMPRESSION — ICONIC RESIDENTIAL TOWERS UP TO 44 FLOORS" },
+    { src: "assets/10-clubhouse-concept.webp", alt: "Grand 1 Lakh sq ft central clubhouse campus at Codename Anandam", caption: "ARTIST'S IMPRESSION — 1 LAKH+ SQ FT CLUBHOUSE CAMPUS" },
+    { src: "assets/03-landscaped-entrance.webp", alt: "Grand landscaped entry portal and lush green boulevard", caption: "ARTIST'S IMPRESSION — GRAND ENTRANCE & BOULEVARD" },
+    { src: "assets/07-open-plan-living-dining.webp", alt: "Spacious open-plan living and formal dining suite with expansive views", caption: "ARTIST'S IMPRESSION — LUXURY LIVING & DINING SUITE" },
+    { src: "assets/11-recreation-pavilion-concept.webp", alt: "Modern recreation pavilion and outdoor leisure amenities", caption: "ARTIST'S IMPRESSION — RECREATION & WELLNESS PAVILION" },
+    { src: "assets/12-temple-concept.webp", alt: "Serene integrated temple within the 52.5-acre township", caption: "ARTIST'S IMPRESSION — INTEGRATED TEMPLE SANCTUARY" }
   ],
   brochureItems: [
-    "Master plan with the 52-acre township zoning, residential clusters and commercial boulevard",
-    "Unit floor layouts for all 2, 2.5, 3 & 4 BHK residences with detailed carpet and terrace areas",
-    "Tower floor plates (G+38 to G+48), floor-by-floor orientation, location guide and technical specifications",
-    "Pre-launch Expression of Interest (EOI) price sheet, launch benefits, and payment schedules"
+    "52.5-Acre Master Plan detailing the mixed-use zoning, commercial boulevards, and residential clusters",
+    "Detailed Unit Floor Plans for 2, 3, and 4 BHK premium apartments with super built-up and carpet area estimates",
+    "Comprehensive Amenities Portfolio showcasing the 1 Lakh+ Sq. Ft. central clubhouse and forest-themed landscapes",
+    "Strategic Location & Connectivity Map highlighting proximity to Whitefield Metro, ITPL, and the STRR",
+    "Project Specifications covering structural design, security, and sustainability features",
+    "Pre-Launch Priority Registration details and indicative price sheet"
   ],
   prices: [
     {
-      brand: "MY HOME CODENAME ANANDAM",
-      configuration: "2 BHK Luxury",
-      typologyDesc: "2 Bed · 2 Bath · Spacious Viewing Deck",
-      carpet: "820 - 870 Sq. Ft.",
-      area: "1,225 - 1,280 sq ft",
-      starting: "₹1.35 Cr* Onwards",
-      subLabel: "INDICATIVE EOI PRICE"
+      brand: "CODENAME ANANDAM",
+      configuration: "2 BHK Premium",
+      typologyDesc: "2 Bed · 2 Bath · Balcony",
+      plot: "High-Rise Tower",
+      carpet: "",
+      area: "~1,100 - 1,450 sq. ft.",
+      starting: "₹1.60 Cr - ₹1.71 Cr*",
+      subLabel: "INDICATIVE PRICE"
     },
     {
-      brand: "MY HOME CODENAME ANANDAM",
-      configuration: "2.5 BHK Premium",
-      typologyDesc: "2 Bed + Study · 2 Bath · Dual Balconies",
-      carpet: "980 - 1,040 Sq. Ft.",
-      area: "1,450 - 1,520 sq ft",
-      starting: "₹1.60 Cr* Onwards",
-      subLabel: "INDICATIVE EOI PRICE"
+      brand: "CODENAME ANANDAM",
+      configuration: "3 BHK Luxury",
+      typologyDesc: "3 Bed · 3 Bath · Spacious Deck",
+      plot: "High-Rise Tower",
+      carpet: "",
+      area: "~1,565 - 2,100 sq. ft.",
+      starting: "Price on Request",
+      subLabel: "INDICATIVE PRICE"
     },
     {
-      brand: "MY HOME CODENAME ANANDAM",
-      configuration: "3 BHK Grand",
-      typologyDesc: "3 Bed · 3 Bath · Powder Room · Double Balcony",
-      carpet: "1,220 - 1,480 Sq. Ft.",
-      area: "1,820 - 2,150 sq ft",
-      starting: "₹1.98 Cr* Onwards",
-      subLabel: "INDICATIVE EOI PRICE"
-    },
-    {
-      brand: "MY HOME CODENAME ANANDAM",
+      brand: "CODENAME ANANDAM",
       configuration: "4 BHK Presidential",
-      typologyDesc: "4 Bed · 4 Bath · Maid's Room · Panoramic Sky Deck",
-      carpet: "1,740 - 1,920 Sq. Ft.",
-      area: "2,450 - 2,650 sq ft",
-      starting: "₹2.70 Cr* Onwards",
-      subLabel: "INDICATIVE EOI PRICE"
+      typologyDesc: "4 Bed · 4 Bath · Palatial Living",
+      plot: "High-Rise Tower",
+      carpet: "",
+      area: "~1,950 - 2,610 sq. ft.",
+      starting: "Up to ₹3.72 Cr*",
+      subLabel: "INDICATIVE PRICE"
     }
   ],
   floorPlans: [
     {
-      tabName: "2 BHK Luxury",
-      name: "2 Bed Luxury Residence",
-      headline: "2 BHK Luxury: Smartly optimized modern urban living",
-      description: "A thoughtfully planned residence featuring an efficient layout, open-plan living and dining, dedicated kitchen utility, and a spacious private viewing balcony overlooking the forest landscape.",
-      saleable: "1,250",
-      carpet: "845",
-      price: "₹1.35 Cr*",
-      image: "assets/4bhk-floor-plan-01-ground-first.webp",
-      secondImage: "assets/4bhk-floor-plan-01-second-third.webp",
-      bullets: [
-        "Spacious master bedroom suite of 11'6\" × 14'0\" with dedicated wardrobe niche and ensuite bath",
-        "Generous living & dining salon opening to an expansive outdoor covered balcony deck",
-        "Smart zero-wastage design with separate utility zone and optimal natural cross-ventilation"
-      ]
-    },
-    {
-      tabName: "2.5 BHK Premium",
-      name: "2.5 Bed Premium Residence",
-      headline: "2.5 BHK Premium: Versatile living with dedicated work-from-home suite",
-      description: "Generously scaled residence tailored for modern professionals, featuring two large ensuite bedrooms plus a flexible private study/home-office, formal dining, and dual balconies.",
-      saleable: "1,480",
-      carpet: "1,010",
+      tabName: "2 BHK",
+      name: "2 BHK Premium Residence",
+      headline: "2 BHK — ~1,255 sq. ft.",
+      description: "Perfect for young couples and first-time buyers working in Whitefield. Features two bedrooms, a combined living and dining area, utility off the kitchen, and a private balcony.",
+      saleable: "1,255 sq. ft.",
+      carpet: "860 sq. ft.*",
       price: "₹1.60 Cr*",
-      image: "assets/4bhk-floor-plan-02-ground-first.webp",
-      secondImage: "assets/4bhk-floor-plan-02-second-third.webp",
+      image: "assets/2bhk-concept-floor-plan.webp",
       bullets: [
-        "Dedicated flexible study / home office / guest room suited for remote corporate leaders",
-        "Palatial master bedroom retreat of 12'0\" × 15'0\" with private viewing balcony",
-        "Low-density floor placement ensuring corner privacy and abundant daylight from three sides"
+        "Approx. 1,255 sq. ft. super built-up area",
+        "Efficient layout with optimal space utilization",
+        "High rental demand from IT professionals"
       ]
     },
     {
-      tabName: "3 BHK Grand",
-      name: "3 Bed Grand Residence",
-      headline: "3 BHK Grand: Expansive luxury designed for growing families",
-      description: "A signature luxury apartment offering three lavish bedrooms, formal living and dining salons, large panoramic viewing deck, and well-segregated public and private zones.",
-      saleable: "1,980",
-      carpet: "1,350",
-      price: "₹1.98 Cr*",
-      image: "assets/4bhk-floor-plan-03-ground-first.webp",
-      secondImage: "assets/4bhk-floor-plan-03-second-third.webp",
+      tabName: "3 BHK",
+      name: "3 BHK Luxury Residence",
+      headline: "3 BHK — ~1,565 to ~2,100 sq. ft.",
+      description: "A balanced, roomier option for growing families. Includes a separate dining area, a larger master suite, and flexible space suitable for a home office.",
+      saleable: "1,565 - 2,100 sq. ft.",
+      carpet: "1,120 - 1,480 sq. ft.*",
+      price: "Price on Request",
+      image: "assets/3bhk-concept-floor-plan.webp",
       bullets: [
-        "Grand 22'0\" × 14'6\" living and dining hall extending to a wide 6-foot deep viewing deck",
-        "Three opulent bedroom suites with provision for walk-in dressing zones and premium bathrooms",
-        "Gourmet kitchen layout with separate wet utility, storage, and helper washroom provision"
+        "Sizes ranging up to 2,100 sq. ft.",
+        "Only 4 to 6 apartments per floor",
+        "Ideal for modern family living"
       ]
     },
     {
-      tabName: "4 BHK Presidential",
-      name: "4 Bed Presidential Suite",
-      headline: "4 BHK Presidential: Flagship sky living with 360-degree vistas",
-      description: "The pinnacle residence at My Home Codename Anandam: four grand ensuite bedroom suites, palatial living lounge, formal banquet dining, helper quarters, and an expansive wraparound sky terrace deck.",
-      saleable: "2,580",
-      carpet: "1,820",
-      price: "₹2.70 Cr*",
-      image: "assets/5bhk-floor-plan-ground-first.webp",
-      secondImage: "assets/5bhk-floor-plan-second-third.webp",
+      tabName: "4 BHK",
+      name: "4 BHK Presidential Suite",
+      headline: "4 BHK — ~1,950 to ~2,610 sq. ft.",
+      description: "A spacious flagship choice for larger families wanting expansive living within a premium integrated township.",
+      saleable: "1,950 - 2,610 sq. ft.",
+      carpet: "1,420 - 1,890 sq. ft.*",
+      price: "Up to ₹3.72 Cr*",
+      image: "assets/4bhk-concept-floor-plan.webp",
       bullets: [
-        "Palatial master bedroom suite with walk-in wardrobe, five-fixture spa bath, and private terrace",
-        "Expansive 26-foot formal living and banquet salon with panoramic views of the 52-acre greenery",
-        "Dedicated domestic helper quarters with independent service entry and wet utility"
+        "Expansive living & dining rooms",
+        "Panoramic views from upper floors",
+        "Premium privacy with low floor density"
       ]
     }
   ],
   residences: [
     {
-      name: "2 & 2.5 Bed Urban Residences",
-      label: "Optimized Luxury Living",
-      description: "Efficiently engineered high-rise homes with open layouts, wide balconies, and panoramic greens.",
-      image: "assets/tower-day.webp",
-      imageAlt: "High-rise modern tower facade and podium greens at My Home Codename Anandam",
-      size: "1,225 to 1,520 sq. ft.",
-      tag: "G+38 to G+48 Floors"
-    },
-    {
-      name: "3 & 4 Bed Grand Suites",
-      label: "Palatial Skyline Living",
-      description: "Expansive luxury suites featuring dual balconies, private foyers, helper quarters, and skyline views.",
-      image: "assets/towers-dusk.webp",
-      imageAlt: "Luxury high-rise residential towers illuminated at dusk at My Home Codename Anandam",
-      size: "1,820 to 2,650 sq. ft.",
-      tag: "Flagship Typologies"
+      name: "2, 3 & 4 BHK Residences",
+      label: "~1,255 to ~2,610 Sq. Ft.",
+      description: "Premium residences in high-rise towers up to 44 floors, thoughtfully planned with just 4 to 6 units per floor, 100% covered car parking, and EV car parking provisions.",
+      image: "assets/01-residential-towers.webp",
+      imageAlt: "My Home Codename Anandam Premium Residences",
+      size: "~1,255 to ~2,610 Sq. Ft.",
+      tag: "Residences"
     }
   ],
   amenitySlides: [
-    { src: "assets/curved-clubhouse.webp", title: "1 Lakh+ Sq. Ft. Mega Clubhouse", alt: "Grand 1,00,000 sq ft central clubhouse with multi-level amenities" },
-    { src: "assets/club-pool.webp", title: "Resort Infinity Swimming Pool", alt: "Centrally placed resort swimming pool and sunbathing decks" },
-    { src: "assets/lap-pool.webp", title: "Olympic-Length Lap Pool", alt: "Dedicated fitness lap pool with landscape views" },
-    { src: "assets/waterfall-pool.webp", title: "Cascading Water Feature Deck", alt: "Tranquil waterfall pool and open-air seating" },
-    { src: "assets/skylit-lounge.webp", title: "Grand Double-Height Atrium Lounge", alt: "Double-height central entrance lobby with skylit atrium" },
-    { src: "assets/club-lounge.webp", title: "Executive Resident Lounge", alt: "Air-conditioned socializing lounge for residents" },
-    { src: "assets/gym.webp", title: "State-of-the-Art Fitness Center", alt: "Equipped gymnasium overlooking 80% green core" },
-    { src: "assets/yoga-deck.webp", title: "Biophilic Meditation & Yoga Deck", alt: "Open-air wellness pavilion surrounded by native forest trees" },
-    { src: "assets/sports-court.webp", title: "Outdoor Sports Arena", alt: "Multipurpose court for tennis, badminton, and basketball" },
-    { src: "assets/garden-tea.webp", title: "Aromatic Botanical Tea Gardens", alt: "Manicured botanical gardens and peaceful sitting pavilions" },
-    { src: "assets/tree-driveway.webp", title: "Tree-Lined Township Boulevard", alt: "Grand 52-acre entrance boulevard lined with shade trees" }
+    { src: "assets/10-clubhouse-concept.webp", title: "1 Lakh+ Sq. Ft. Mega Clubhouse", alt: "Grand 1 Lakh sq ft central clubhouse with multi-level amenities" },
+    { src: "assets/11-recreation-pavilion-concept.webp", title: "Recreation Pavilion & Sports", alt: "Recreation pavilion and outdoor leisure amenities" },
+    { src: "assets/03-landscaped-entrance.webp", title: "Lush Grand Arrival Boulevard", alt: "Grand landscaped entry portal and tree-lined avenue" },
+    { src: "assets/08-family-on-lawn.webp", title: "Biophilic Parks & Open Lawns", alt: "Lush community parks, lawns and 3,000+ native trees" },
+    { src: "assets/12-temple-concept.webp", title: "Exclusive Temple Sanctuary", alt: "Serene dedicated temple within the township" },
+    { src: "assets/06-contemporary-lounge.webp", title: "Contemporary Resident Lounge", alt: "Elegant air-conditioned lounge for residents and guests" },
+    { src: "assets/04-terrace-sunset.webp", title: "Sunset Sky Terrace & Decks", alt: "Elevated viewing deck and scenic sunset lounge" },
+    { src: "assets/whitefield-lakeside-greenery.webp", title: "Lakeside Eco-Trails & Nature", alt: "Serene lakeside greenery and pedestrian walking trails" }
   ],
   amenityGroups: [
     {
-      category: "BIOPHILIC FOREST LANDSCAPE",
+      category: "NATURE & LANDSCAPES",
       icon: "landscape",
-      pills: ["3,000+ Native Trees", "Forest Eco-Trail", "Resort Pool & Sun Decks", "Kids Aqua Splash Zone", "Vehicle-Free Podiums", "Reflexology Path", "Aroma & Butterfly Park", "Senior Citizens' Pavilion", "Pet Activity Park", "Amphitheatre Lawn"]
+      pills: ["3,000+ Trees", "Acres of Landscaped Zones", "Eco Trail", "Community & Link Parks", "Acres of Car-Free Podium Amenities"]
     },
     {
-      category: "SPORTS & RECREATION",
-      icon: "sports",
-      pills: ["Tennis Courts", "Indoor Badminton Courts", "Squash Courts", "Cricket Practice Net", "Skating Rink", "Multipurpose Sports Court", "Outdoor Fitness Station", "Kids Adventure Play Zone"]
-    },
-    {
-      category: "MEGA CLUBHOUSE & LEISURE",
+      category: "CLUBHOUSE & LIFESTYLE",
       icon: "clubhouse",
-      pills: ["1,00,000+ Sq. Ft. Mega Club", "Fully Equipped Gym & Crossfit", "Steam, Sauna & Spa Suites", "Private Mini Theatre", "Co-working & Business Lounge", "Grand Banquet Halls", "Guest Accommodation Suites", "EV Fast Charging Bays"]
+      pills: ["~1 Lakh+ Sq. Ft. Clubhouse", "~2 Acre Clubhouse Campus", "50+ Indoor & Outdoor Amenities", "Clubhouse Guest Suites", "Exclusive Temple", "Landmark Retail & Grade-A Office", "Business Centre"]
+    },
+    {
+      category: "INFRASTRUCTURE & UTILITIES",
+      icon: "health",
+      pills: ["Solar Power", "Groundwater Recharge", "Sanitary Network", "100% Covered Car Parking", "EV Car Parking", "School Bus Bays", "Wide Internal Roads", "24/7 Security & CCTV"]
     }
   ],
   projectGallery: [
     {
-      src: "assets/towers-dusk.webp",
+      src: "assets/01-residential-towers.webp",
       tag: "ARCHITECTURE",
       credit: "ARTIST'S IMPRESSION",
-      alt: "Iconic high-rise tower elevations reaching G+48 floors at My Home Codename Anandam"
+      alt: "Iconic high-rise tower elevations reaching 44 floors at Codename Anandam"
     },
     {
-      src: "assets/tower-pool.webp",
-      tag: "RESORT LIVING",
+      src: "assets/02-living-room-sunset.webp",
+      tag: "LIVING SUITE",
       credit: "ARTIST'S IMPRESSION",
-      alt: "Resort-style central swimming pool and sunbathing decks framed by towers"
+      alt: "Warm sunset ambiance in expansive high-rise living room"
     },
     {
-      src: "assets/living-dining.webp",
-      tag: "INTERIORS",
+      src: "assets/03-landscaped-entrance.webp",
+      tag: "GRAND ENTRY",
       credit: "ARTIST'S IMPRESSION",
-      alt: "Double-height luxury living salon with formal dining and panoramic balcony"
+      alt: "Majestic landscaped arrival portal and tree-lined boulevard"
     },
     {
-      src: "assets/tree-driveway.webp",
-      tag: "TOWNSHIP BOULEVARD",
+      src: "assets/04-terrace-sunset.webp",
+      tag: "SKY TERRACE",
       credit: "ARTIST'S IMPRESSION",
-      alt: "Tree-lined township entrance boulevard and landscaped arrival court"
+      alt: "Sky terrace deck with panoramic sunset views"
     },
     {
-      src: "assets/bedroom.webp",
-      tag: "MASTER SUITE",
+      src: "assets/05-marble-wall-living-room.webp",
+      tag: "LUXURY INTERIORS",
       credit: "ARTIST'S IMPRESSION",
-      alt: "Luxury master bedroom suite with bespoke walk-in wardrobe and wide viewing deck"
+      alt: "Designer marble-accent living room with bespoke craftsmanship"
     },
     {
-      src: "assets/curved-clubhouse.webp",
+      src: "assets/06-contemporary-lounge.webp",
+      tag: "CLUB LOUNGE",
+      credit: "ARTIST'S IMPRESSION",
+      alt: "Contemporary residents lounge and social seating"
+    },
+    {
+      src: "assets/07-open-plan-living-dining.webp",
+      tag: "EXPANSIVE SUITE",
+      credit: "ARTIST'S IMPRESSION",
+      alt: "Spacious open plan living and dining layout with panoramic views"
+    },
+    {
+      src: "assets/10-clubhouse-concept.webp",
       tag: "MEGA CLUBHOUSE",
       credit: "ARTIST'S IMPRESSION",
-      alt: "Palatial 1,00,000 sq ft central clubhouse campus and recreational sports pavilions"
+      alt: "Palatial 1 Lakh+ sq. ft. central clubhouse campus"
     },
     {
-      src: "assets/garden-trail.webp",
-      tag: "BIOPHILIC GREENS",
+      src: "assets/whitefield-lake-and-skyline.webp",
+      tag: "LOCATION & SKYLINE",
       credit: "ARTIST'S IMPRESSION",
-      alt: "80% dedicated open greens with continuous pedestrian forest trail"
-    },
-    {
-      src: "assets/dining-room.webp",
-      tag: "FORMAL DINING",
-      credit: "ARTIST'S IMPRESSION",
-      alt: "Designer formal dining room overlooking panoramic forest podium views"
-    },
-    {
-      src: "assets/tower-night.webp",
-      tag: "EVENING SKYLINE",
-      credit: "ARTIST'S IMPRESSION",
-      alt: "Illuminated high-rise skyline and vehicle-free podiums at night"
+      alt: "Whitefield Annex skyline and tranquil surrounding greenery"
     }
   ],
   locationGroups: [
     {
-      category: "METRO & ROAD CONNECTIVITY",
-      icon: "nav",
-      items: [
-        { name: "Kadugodi Purple Line Metro Station", timeDistance: "10 min · 6.5 km" },
-        { name: "Whitefield Railway Station", timeDistance: "10 min · 6.8 km" },
-        { name: "Whitefield-Hoskote Road (SH-35)", timeDistance: "Direct on-road frontage" },
-        { name: "Old Madras Road (NH-75)", timeDistance: "8 min · 5.2 km" },
-        { name: "Kempegowda International Airport", timeDistance: "40 min · 36 km via SH-35/STRR" }
-      ]
-    },
-    {
-      category: "TECH PARKS & WORK HUBS",
+      category: "WORKPLACES & TECH PARKS",
       icon: "work",
       items: [
-        { name: "ITPL / International Tech Park Bengaluru", timeDistance: "15 min · 9.2 km" },
-        { name: "Bearys Global Research Triangle", timeDistance: "8 min · 4.8 km" },
-        { name: "EPIP Industrial Zone & GR Tech Park", timeDistance: "16 min · 10.5 km" },
-        { name: "Hoskote Industrial Hub", timeDistance: "12 min · 7.5 km" },
-        { name: "Brigade Tech Gardens / BTP", timeDistance: "18 min · 11.5 km" }
+        { name: "Bearys Global Research Triangle", timeDistance: "3 mins" },
+        { name: "Hoskote, KIADB Belt", timeDistance: "12 mins" },
+        { name: "ITPL and EPIP Tech Belt", timeDistance: "25 mins" },
+        { name: "Hoodi, Outer Ring Road", timeDistance: "30 mins" }
       ]
     },
     {
-      category: "EDUCATION, HEALTHCARE & RETAIL",
+      category: "TRANSIT & CONNECTIVITY",
+      icon: "nav",
+      items: [
+        { name: "Budigere Cross", timeDistance: "5 mins" },
+        { name: "Whitefield Metro, Purple Line", timeDistance: "15 mins" },
+        { name: "KR Puram", timeDistance: "32 mins" },
+        { name: "MG Road, CBD", timeDistance: "55 mins" },
+        { name: "Kempegowda Intl. Airport", timeDistance: "1 hr" }
+      ]
+    },
+    {
+      category: "PERFECT FOR",
       icon: "health",
       items: [
-        { name: "Whitefield Global School & DPS", timeDistance: "8 to 12 min" },
-        { name: "Manipal Hospital Whitefield", timeDistance: "14 min · 8.8 km" },
-        { name: "Vydehi Institute of Medical Sciences", timeDistance: "16 min · 10.0 km" },
-        { name: "Nexus Shantiniketan & Park Square Mall", timeDistance: "15 min · 9.5 km" },
-        { name: "Orion Uptown Mall & Forum Neighbourhood", timeDistance: "10 to 15 min" }
+        { name: "Premium Long-term Lifestyle", timeDistance: "Families seeking luxury township living" },
+        { name: "Early-stage Appreciation", timeDistance: "Smart investors backed by My Home brand" },
+        { name: "Tech & Corporate Leaders", timeDistance: "Working at Bearys GRT, ITPL & EPIP" }
       ]
     }
   ],
   locationHighlights: [
     {
-      title: "Direct SH-35 Corridor Advantage",
-      text: "Fronting the vital Whitefield-Hoskote Road (SH-35), offering uninterrupted multi-lane access between Whitefield's tech corridor, NH-75, and Bengaluru International Airport."
+      title: "Whitefield-Hoskote Road (SH-35) Axis",
+      text: "Positioned directly on the corridor that links the established Whitefield employment belt to the Hoskote industrial and expressway node."
     },
     {
-      title: "Purple Line Metro Terminus Close By",
-      text: "Kadugodi Metro Station is just 10 minutes away, connecting residents seamlessly across Indiranagar, MG Road, Majestic, and CBD without vehicular traffic bottlenecks."
+      title: "Expanding Metro & Highway Infrastructure",
+      text: "Only 15 minutes to the operational Purple Line Metro (Kadugodi), and positioned perfectly to benefit from expanding outer highway networks like STRR and NE-7."
     },
     {
-      title: "52-Acre Self-Contained Township Living",
-      text: "A self-sustaining master development insulated from city chaos, offering on-campus high-street shopping, commercial offices, healthcare clinics, and international schooling nearby."
+      title: "A Mature Social Catchment",
+      text: "Close enough to inherit Whitefield's established ecosystem, putting top-tier schools, major hospitals (like Manipal and Vydehi), and retail centers (Phoenix Marketcity) within easy reach."
     }
   ],
   locations: [
-    { name: "SH-35 Frontage", detail: "0 km · Direct main road arterial access" },
-    { name: "Kadugodi Metro", detail: "6.5 km · Purple Line terminus connectivity" },
-    { name: "Whitefield Station", detail: "6.8 km · Fast regional and suburban rail transit" },
-    { name: "ITPL & EPIP Zone", detail: "9.2 km · Premier Whitefield IT employment hub" },
-    { name: "Reputed Schools", detail: "Whitefield Global, DPS, Chrysalis & Deens Academy" },
-    { name: "Multi-Specialty Care", detail: "Manipal Hospital, Vydehi & Motherhood Whitefield" }
+    { name: "Bearys Global Research Triangle", detail: "3 mins" },
+    { name: "Budigere Cross", detail: "5 mins" },
+    { name: "Hoskote, KIADB belt", detail: "12 mins" },
+    { name: "Whitefield Metro, Purple Line", detail: "15 mins" },
+    { name: "ITPL and EPIP tech belt", detail: "25 mins" },
+    { name: "Kempegowda Intl. Airport", detail: "1 hr" }
   ],
   approvals: [
-    { value: "Applied / EOI", label: "KARNATAKA RERA STATUS" },
-    { value: "52+ Acres", label: "MASTER TOWNSHIP PLAN" },
-    { value: "Grade-A Bank", label: "RERA ESCROW COMPLIANCE" },
-    { value: "My Home Group", label: "40+ YEARS PEDIGREE ON RECORD" }
+    { value: "Subject to RERA", label: "PROJECT REGISTRATION" },
+    { value: "Premium Residences", label: "BLISSFUL LIVING" }, 
+    { value: "World-Class Amenities", label: "LUXURY CLUBHOUSE" },
+    { value: "My Home Group", label: "DEVELOPED BY MY HOMES" }
   ],
   details: [
-    { icon: "01", title: "52-Acre Master Township", text: "Integrated mixed-use development featuring luxurious high-rise residential towers, manicured parklands, and vibrant high-street retail boulevards." },
-    { icon: "02", title: "1,00,000+ Sq. Ft. Mega Clubhouse", text: "One of Bengaluru's largest residential clubhouses on a dedicated 2-acre campus, equipped with olympic pools, indoor courts, and wellness spas." },
-    { icon: "03", title: "Iconic G+48 Sky-Scraping Towers", text: "Majestic modern towers designed for low-density living, offering 4 to 6 units per floor, high ceilings, and unhindered horizon views." },
-    { icon: "04", title: "80% Biophilic Forest Greens", text: "Vehicle-free podium levels planted with over 3,000 native shade trees, scenic walking eco-trails, reflexology tracks, and water features." },
-    { icon: "05", title: "High-Speed Transit & Metro Access", text: "Just 10 minutes to the Kadugodi Purple Line Metro Station and direct connectivity to Old Madras Road (NH-75) and STRR (NH-648)." },
-    { icon: "06", title: "My Home Engineering Precision", text: "Backed by My Home Group's 40-year legacy of on-time delivery, advanced German shear-wall construction technology, and Grade-A build quality." }
+    { icon: "01", title: "52.5-Acre Mixed-Use Masterplan", text: "A massive integrated development featuring 5,000+ apartments, multiple clusters, and landmark retail and office spaces." },
+    { icon: "02", title: "~1 Lakh+ Sq. Ft. Clubhouse", text: "An expansive recreational campus spanning ~2 acres, complete with guest suites and over 50 indoor and outdoor amenities." },
+    { icon: "03", title: "Towers Up To 44 Floors", text: "20+ iconic high-rise towers offering spacious 2, 3, and 4 BHK premium residences ranging from ~1,255 to ~2,610 sq. ft." },
+    { icon: "04", title: "Nature at the Core", text: "Built around unhurried joy with 3,000+ trees, eco trails, acres of landscaped zones, and car-free podiums." },
+    { icon: "05", title: "Smart Future-Ready Utilities", text: "Equipped with solar power, groundwater recharge, a sanitary network, wide internal roads, and EV car parking." },
+    { icon: "06", title: "The My Home Legacy", text: "Backed by a trusted Group with 40 years of legacy, 38 million sq. ft. delivered, and 16,000+ happy residents." }
   ],
   masterplanNotes: [
     {
-      title: "27 Iconic High-Rise Towers across 52 Acres:",
-      text: "Thoughtfully placed towers reaching G+38 to G+48 floors, engineered with optimal sun orientation and wind tunneling for maximum cross-ventilation."
+      title: "Expansive 52.5-Acre Community",
+      text: "A grand masterplan featuring 5,000+ apartments across 20+ towers with multiple clusters and a dedicated temple within the premises."
     },
     {
-      title: "World-Class Sports & Recreation Infrastructure:",
-      text: "Dedicated outdoor tennis courts, multiple badminton courts, squash facilities, cricket practice nets, and jogging circuits woven through the landscape."
+      title: "Car-Free Podium & Landscaped Zones",
+      text: "Designed with acres of safe, car-free podium amenities, community and link parks, an eco trail, and 3,000+ trees for fresh air every day."
     },
     {
-      title: "Comprehensive Multi-Generational Enclaves:",
-      text: "Central gathering amphitheatre, pet-friendly sensory parks, senior citizens' shaded pavilions, kids' water play zones, and lush botanical gardens."
+      title: "Integrated Work & Retail",
+      text: "Includes a business centre and landmark retail/Grade-A office space so residents can shop and work a stroll away."
     },
     {
-      title: "100% Vehicle-Free Podium Living:",
-      text: "Vehicular movement, delivery logistics, and parking ramps are routed strictly through basement levels, keeping the entire podium landscape secure and pedestrian-only."
+      title: "Future-Ready Infrastructure",
+      text: "Supported by solar power, groundwater recharge, comprehensive sanitary networks, 100% covered car parking, EV charging, and school bus bays."
     }
   ],
   specifications: [
     {
-      category: "STRUCTURE & CIVIL FOUNDATION",
-      text: "Seismic Zone II compliant RCC shear wall framework engineered with high-precision aluminium formwork technology for superior acoustic insulation, durability, and smooth architectural finishes."
+      category: "TOWER STRUCTURE",
+      text: "High-rise towers structured with 3 Basements + Ground + 38 to 44 upper floors. Engineered for earthquake resistance."
     },
     {
-      category: "FLOORING & FINISHES",
-      text: "Large format premium glazed vitrified tiles (800x1600mm / 1200x1200mm) across living, dining, corridors, and family lounge. Anti-skid vitrified tiles across expansive viewing balconies, utility, and bathrooms. Laminated wooden flooring option in master bedroom suites."
+      category: "LOW DENSITY LAYOUT",
+      text: "Designed for premium privacy with only 4 to 6 apartments per floor to avoid overcrowded lobbies and ensure optimal cross-ventilation."
     },
     {
-      category: "DOORS & WINDOWS",
-      text: "Grand 8-foot engineered wooden main door with designer veneer finish and premium multi-point biometric digital smart lock (fingerprint/PIN/card). Heavy-duty powder-coated aluminium / UPVC sliding windows with double-glazed acoustic performance glass and mosquito mesh shutters."
+      category: "SECURITY & SAFETY",
+      text: "Gated township featuring 24/7 manned security, CCTV surveillance across common areas, and modern fire safety systems."
     },
     {
-      category: "BATHROOMS & SANITARY",
-      text: "Designer vitrified wall tiles up to false ceiling height. Premium wall-hung EWCs with concealed soft-touch cisterns, quartz vanity counter basins, thermostatic chrome-plated rain shower fixtures, and hot/cold mixers from Kohler, Grohe, or Toto. Central solar water heating provision for top floors."
+      category: "SUSTAINABLE UTILITIES",
+      text: "Self-sustaining infrastructure featuring reliable 100% power backup, integrated water supply, groundwater recharge mechanisms, and solar power initiatives."
     },
     {
-      category: "KITCHEN & UTILITY",
-      text: "Provision for modular kitchen layout with dual water supply lines (Borewell & Corporation / RO treated). Dedicated electrical points for high-capacity chimney, water purifier, dishwasher, and microwave. Separate utility area with washing machine plumbing and service staff access."
+      category: "PARKING & MOBILITY",
+      text: "100% covered car parking for residents and guests, dedicated EV charging provisions, wide internal roads, and designated school bus bays."
     },
     {
-      category: "ELECTRICAL & AUTOMATION",
-      text: "Concealed fire-retardant low-smoke (FRLS) copper wiring from Polycab/Finolex with elegant modular switches from Schneider or Legrand. High-speed optical fibre internet points, video door phone (VDP), smart home automation conduits, and 100% DG power backup with automated changeover."
-    },
-    {
-      category: "ELEVATORS & PARKING",
-      text: "High-speed automatic passenger and dedicated stretcher/service elevators from Mitsubishi, Otis, or Schindler with ARD (Automatic Rescue Device). Multi-level basement parking with wide 7-meter driveways, clear signage, and dedicated EV charging stations."
+      category: "COMMUNITY LANDSCAPING",
+      text: "Forest-themed open spaces with a completely vehicle-free podium level, ensuring a safe walking environment for children and senior citizens."
     }
   ],
   developer: {
     paragraphs: [
-      "Established in 1981 by visionary founder <strong>Dr. Rameswar Rao Jupally</strong>, <strong>My Home Group</strong> is one of South India's most respected Grade-A real estate conglomerates, renowned for delivering mega-townships with unmatched engineering precision and timeless quality under the philosophy <em>'Make Living Better'</em>.",
-      "With over <strong>40+ years of legacy</strong>, more than <strong>33+ million sq. ft.</strong> of completed residential and commercial spaces, and over 15,000+ satisfied families, My Home Group marks its grand entry into the Bengaluru market with <strong>My Home Codename Anandam</strong> in Whitefield Annex.",
-      "Every project by My Home Group is constructed using state-of-the-art construction methodologies, zero compromise on material quality, and strict adherence to environmental sustainability and RERA governance."
+      "Founded in 1986 by Dr. Rameswar Rao Jupally, <strong>My Home Group</strong> has spent four decades building a USD 1.3 billion enterprise rooted in quality, trust, and community-centric living.",
+      "With over 38 million sq. ft. of space delivered across 26 completed projects, the Group's communities in Hyderabad are currently home to more than 16,000 residents.",
+      "Driven by an integrated workforce of 12,000+ professionals and an impressive forward planning pipeline of 95+ million sq. ft., My Home Group is now bringing its legacy of monumental scale and execution to Bengaluru with Codename Anandam."
     ],
     stats: [
-      { value: "1981", label: "FOUNDED YEAR" },
-      { value: "40+", label: "YEARS OF LEGACY" },
-      { value: "33M+", label: "SQ. FT. DELIVERED" },
-      { value: "15,000+", label: "HAPPY FAMILIES" }
+      { value: "40", label: "YEARS OF LEGACY" },
+      { value: "38 MSF", label: "SPACE DELIVERED" },
+      { value: "26", label: "COMPLETED PROJECTS" },
+      { value: "16,000+", label: "RESIDENTS" }
     ]
   },
   faqs: [
     {
-      question: "What is My Home Codename Anandam and who is the developer?",
-      answer: "My Home Codename Anandam (also known as My Home Anandam) is an ultra-luxury, 52-acre biophilic forest-themed integrated township located in Whitefield Annex, Bengaluru. It is developed by the acclaimed My Home Group, marking their prestigious entry into Bengaluru's residential landscape."
+      question: "What is Codename Anandam?",
+      answer: "Codename Anandam is a 52.5-acre premium mixed-use development located in Whitefield Annex, marking the grand Bengaluru debut of the renowned My Home Group."
     },
     {
-      question: "Where is My Home Codename Anandam located?",
-      answer: "The project is strategically situated on the Kadugodi-Hoskote Road (State Highway 35 / SH-35) in the Whitefield Annex corridor, East Bengaluru (Pin: 560067), close to the Kadugodi Metro Station and Old Madras Road (NH-75)."
+      question: "What type of residences are available?",
+      answer: "The project offers premium 2, 3, and 4 BHK residences with home sizes ranging from ~1,255 to ~2,610 sq. ft., housed in 20+ high-rise towers rising up to 44 floors."
     },
     {
-      question: "What unit configurations and apartment sizes are available?",
-      answer: "The township offers a wide selection of spacious 2 BHK, 2.5 BHK (with study), 3 BHK (Comfort & Grand), and 4 BHK Presidential luxury residences, ranging from approximately 1,225 sq. ft. to 2,650 sq. ft."
+      question: "Where is the project located?",
+      answer: "It is strategically positioned on Whitefield-Hoskote Road (SH-35) in Konadasapura, East Bengaluru. It is just 3 minutes from Bearys Global Research Triangle, 15 minutes from the Purple Line Metro, and surrounded by Whitefield's established schools and hospitals."
     },
     {
-      question: "What is the starting price for apartments at My Home Codename Anandam?",
-      answer: "Indicative pre-launch Expression of Interest (EOI) prices start from approximately ₹1.35 Cr* for 2 BHK residences, ₹1.60 Cr* for 2.5 BHK residences, ₹1.98 Cr* for 3 BHK residences, and ₹2.70 Cr* for 4 BHK residences. Final unit-specific pricing will be released post official Karnataka RERA allotment."
+      question: "What is the expected possession date?",
+      answer: "Phase 1 of the township is targeted for completion and handover starting from late 2029 to December 2030."
     },
     {
-      question: "What is the total land area and master layout of the township?",
-      answer: "The project spans roughly 52 to 53 acres as an integrated mixed-use master development, comprising approximately 45 acres dedicated to residential towers and expansive open green podiums, and around 8 acres reserved for commercial and retail conveniences."
+      question: "What amenities does the community feature?",
+      answer: "The development is planned around an unhurried lifestyle, featuring a ~1 Lakh+ sq. ft. clubhouse on a 2-acre campus, 50+ indoor/outdoor amenities, clubhouse guest suites, an exclusive temple, eco trails, 3,000+ trees, and integrated retail/office spaces."
     },
     {
-      question: "How many towers and floors are planned in the project?",
-      answer: "The overall township is planned with approximately 27 iconic high-rise towers. Phase 1 features 8 towers soaring from G+38 to G+48 floors, designed with low density of just 4 to 6 apartments per floor to guarantee privacy and panoramic vistas."
+      question: "What is the registration status of the project?",
+      answer: "The project is currently in the pre-launch phase and is subject to RERA registration. Priority registration is currently open, and interested buyers can submit a Customer Survey Form (CSF) to secure a Priority Number."
     },
     {
-      question: "What is the concept behind 'Codename Anandam'?",
-      answer: "'Anandam' signifies joy, bliss, and serene living. The project is conceived as a biophilic forest sanctuary within the city, featuring over 3,000 native shade trees, continuous eco-walkways, and 80% open-to-sky podium green spaces that insulate residents from urban noise and heat."
+      question: "Who is Codename Anandam perfect for?",
+      answer: "Codename Anandam is perfect for families seeking a premium, unhurried lifestyle in an expansive 52.5-acre forest-themed community, IT & business professionals working in the Whitefield/Hoskote tech corridors, and smart investors looking for early-stage pre-launch appreciation backed by the renowned My Home Group."
     },
     {
-      question: "What recreational and clubhouse amenities are included?",
-      answer: "The project features a magnificent 1,00,000+ sq. ft. multi-level central clubhouse built across a 2-acre campus. Amenities include olympic-length lap pools, resort swimming pools, indoor badminton and squash courts, gymnasium, yoga decks, mini theatre, banquet halls, guest suites, and children's adventure play zones."
-    },
-    {
-      question: "How is the connectivity from Kadugodi Metro Station and Whitefield tech parks?",
-      answer: "The project enjoys excellent transit: the Kadugodi Purple Line Metro Station and Whitefield Railway Station are just 10 minutes away. Major IT corridors including ITPL, EPIP Zone, GR Tech Park, and Bearys Global Research Triangle are reachable in 10 to 18 minutes."
-    },
-    {
-      question: "What is the current status of Karnataka RERA registration?",
-      answer: "The project is currently in its pre-launch Expression of Interest (EOI) stage, and the formal Karnataka RERA registration application has been submitted / is under processing. Binding allotments and sale agreements will commence strictly post receipt of the official RERA registration number."
-    },
-    {
-      question: "What is the anticipated possession and completion timeline?",
-      answer: "Phase 1 construction of My Home Codename Anandam is targeted for completion and phased handover starting from late 2029 through December 2030, in line with RERA milestones."
-    },
-    {
-      question: "Are the homes designed according to Vaastu principles?",
-      answer: "Yes, all apartment floor plans, entrance orientations, kitchen placements, and master suites are meticulously engineered in accordance with traditional Vaastu principles while optimizing natural sunlight and cross-ventilation."
-    },
-    {
-      question: "What parking provisions and safety features are provided?",
-      answer: "The community provides multi-level covered basement parking equipped with EV charging stations and dedicated visitor bays. The podium level is 100% vehicle-free, protected by 24×7 multi-tier security, smart RFID boom barriers, and CCTV surveillance."
-    },
-    {
-      question: "Why should one invest in My Home Codename Anandam in Whitefield Annex?",
-      answer: "With My Home Group's stellar 40-year track record of premium delivery, a massive 52-acre integrated township, landmark high-rise architecture (G+48), 1 Lakh sq. ft. clubhouse, and rapid capital appreciation along the SH-35/STRR corridor, it represents one of East Bengaluru's most compelling residential investments."
-    },
-    {
-      question: "How can I book a priority Expression of Interest (EOI) or site visit?",
-      answer: "You can submit your enquiry through the form on this page or connect directly with our Authorized Channel Partner sales desk on WhatsApp or call at +91 74116 62228 for priority EOI pass allotments, cost sheets, and guided site visits."
+      question: "Who is the developer behind Codename Anandam?",
+      answer: "The project is being developed by My Home Group, a trusted real estate leader with a 40-year legacy, 26 completed projects, and over 38 million sq. ft. of space delivered in Hyderabad."
     }
   ]
 };
