@@ -1,0 +1,10 @@
+<svg width="120" height="44" viewBox="0 0 120 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(2, 4)">
+    <path d="M18 2L32 10.5V25.5L18 34L4 25.5V10.5L18 2Z" stroke="#d4af37" stroke-width="2" fill="#07261c" fill-opacity="0.4"/>
+    <path d="M10 23V14L18 19L26 14V23" stroke="#d4af37" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 6L28 12.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="18" cy="11" r="2.2" fill="#d4af37"/>
+  </g>
+  <text x="42" y="21" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-weight="800" font-size="14" fill="#ffffff" letter-spacing="2">MY HOME</text>
+  <text x="42" y="31" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-weight="600" font-size="6.5" fill="#d4af37" letter-spacing="1.2">MAKE LIVING BETTER</text>
+</svg>
