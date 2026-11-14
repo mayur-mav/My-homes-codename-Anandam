@@ -372,36 +372,56 @@ window.anandamData = window.florenneData = {
   },
   faqs: [
     {
-      question: "What is Codename Anandam?",
-      answer: "Codename Anandam is a 52.5-acre premium mixed-use development located in Whitefield Annex, marking the grand Bengaluru debut of the renowned My Home Group."
+      question: "Where exactly is the project located?",
+      answer: "It is located in Whitefield Annex, Bengaluru, Karnataka (PIN 560066), near the Kadugodi Metro Station, sitting at the confluence of the Whitefield–Kadugodi and Whitefield–Hoskote corridors."
     },
     {
-      question: "What type of residences are available?",
-      answer: "The project offers premium 2, 3, and 4 BHK residences with home sizes ranging from ~1,255 to ~2,610 sq. ft., housed in 20+ high-rise towers rising up to 44 floors."
+      question: "Who is the developer of Codename Anandam?",
+      answer: "The project is developed by My Home Group, a prominent Hyderabad-based developer with over 40 years of experience and more than 40 million sq ft delivered."
     },
     {
-      question: "Where is the project located?",
-      answer: "It is strategically positioned on Whitefield-Hoskote Road (SH-35) in Konadasapura, East Bengaluru. It is just 3 minutes from Bearys Global Research Triangle, 15 minutes from the Purple Line Metro, and surrounded by Whitefield's established schools and hospitals."
+      question: "How far is the property from the Kadugodi Metro Station?",
+      answer: "It is approximately 2 to 3 km away from the Kadugodi Metro Station (Purple Line)."
     },
     {
-      question: "What is the expected possession date?",
-      answer: "Phase 1 of the township is targeted for completion and handover starting from late 2029 to December 2030."
+      question: "What apartment configurations and unit sizes are available?",
+      answer: "The project offers 2 BHK, 3 BHK, and 4 BHK residences with super built-up areas ranging from 1,255 to 2,610 sq ft."
     },
     {
-      question: "What amenities does the community feature?",
-      answer: "The development is planned around an unhurried lifestyle, featuring a ~1 Lakh+ sq. ft. clubhouse on a 2-acre campus, 50+ indoor/outdoor amenities, clubhouse guest suites, an exclusive temple, eco trails, 3,000+ trees, and integrated retail/office spaces."
+      question: "How many towers and total homes are there in Phase 1?",
+      answer: "Phase 1 consists of 8 towers housing approximately 1,840 homes."
     },
     {
-      question: "What is the registration status of the project?",
-      answer: "The project is currently in the pre-launch phase and is subject to RERA registration. Priority registration is currently open, and interested buyers can submit a Customer Survey Form (CSF) to secure a Priority Number."
+      question: "What is the height of the residential towers?",
+      answer: "The towers range from 38 to 44 storeys in height."
     },
     {
-      question: "Who is Codename Anandam perfect for?",
-      answer: "Codename Anandam is perfect for families seeking a premium, unhurried lifestyle in an expansive 52.5-acre forest-themed community, IT & business professionals working in the Whitefield/Hoskote tech corridors, and smart investors looking for early-stage pre-launch appreciation backed by the renowned My Home Group."
+      question: "How many apartments are planned per floor?",
+      answer: "Each floor accommodates either 4 or 6 apartments, depending on the specific tower layout."
     },
     {
-      question: "Who is the developer behind Codename Anandam?",
-      answer: "The project is being developed by My Home Group, a trusted real estate leader with a 40-year legacy, 26 completed projects, and over 38 million sq. ft. of space delivered in Hyderabad."
+      question: "What is the current pricing of the apartments?",
+      answer: "Pricing is currently \"on request\" as the project is in its pre-launch phase. Interested buyers can register for the official price sheet release."
+    },
+    {
+      question: "What is the RERA status of the project?",
+      answer: "RERA registration has been applied for, and the registration number is currently awaited (verifiable via rera.karnataka.gov.in once published)."
+    },
+    {
+      question: "What major key employment and IT hubs are nearby?",
+      answer: "Major hubs nearby include ITPL (International Tech Park, Whitefield) about 6–8 km away and the EPIP Zone about 7–9 km away."
+    },
+    {
+      question: "What connectivity options are available by road and highway?",
+      answer: "Key access routes include the Whitefield–Kadugodi Road, Whitefield–Hoskote Road, and NH 75 (Old Madras Road) for highway travel toward central Bengaluru or Chennai."
+    },
+    {
+      question: "What lifestyle amenities are planned for the township?",
+      answer: "Planned amenities include a wellness clubhouse, a fitness studio, a swimming pool, forest-themed landscaped greens, walking trails, children's play zones, co-working spaces, a multipurpose hall, and retail convenience areas."
+    },
+    {
+      question: "What is the developer's background and market standing?",
+      answer: "My Home Group, which was founded in 1981, is the biggest property developer in Hyderabad with an FY26 Revenue of ₹6,000 Crore ."
     }
   ]
 };
