@@ -1,11 +1,9 @@
 window.anandamData = window.florenneData = {
   // ==========================================================================
-  // Lead Capture API Endpoint (paste your API URL here when ready)
-  // e.g. leadApiUrl: "https://your-backend.com/api/leads",
+  // Lead Capture API Endpoint & Project Configuration
   // ==========================================================================
-  leadApiUrl: "",
-
-  projectName: "Codename Anandam",
+  leadApiUrl: "https://leadapi.homebble.in/formdataRoute/getFormdata",
+  projectName: "My Home Codename Anandam",
   developerName: "My Home Group",
   locationName: "Whitefield Annex, Whitefield-Hoskote Road, East Bengaluru",
   salesPhone: "+91 74116 62228",
