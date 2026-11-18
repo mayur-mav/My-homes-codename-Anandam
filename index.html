@@ -20,10 +20,10 @@
     <noscript>
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     </noscript>
-    <link rel="stylesheet" href="styles.css?v=11.0">
-    <script src="data.js?v=11.0" defer></script>
+    <link rel="stylesheet" href="styles.css?v=38.7">
+    <script src="data.js?v=38.7" defer></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
-    <script src="script.js?v=11.0" defer></script>
+    <script src="script.js?v=38.7" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -160,9 +160,10 @@
               <label class="form-label" for="hero-home">LOOKING FOR</label>
               <div class="custom-select-wrap">
                 <select id="hero-home" name="homeType" class="full-select">
-                  <option value="2 BHK Premium (~1,255 sq. ft.)" selected>2 BHK Premium (~1,255 sq. ft.)</option>
-                  <option value="3 BHK Luxury (~1,565 - 2,100 sq. ft.)">3 BHK Luxury (~1,565 - 2,100 sq. ft.)</option>
-                  <option value="4 BHK Presidential (~1,950 - 2,610 sq. ft.)">4 BHK Presidential (~1,950 - 2,610 sq. ft.)</option>
+                  <option value="2 BHK Luxury">2 BHK Luxury</option>
+                  <option value="2.5 BHK Premium">2.5 BHK Premium</option>
+                  <option value="3 BHK Grand">3 BHK Grand</option>
+                  <option value="4 BHK Presidential">4 BHK Presidential</option>
                 </select>
               </div>
             </div>
@@ -284,44 +285,46 @@
                   <span class="specs-header-title">KEY PROJECT SPECIFICATIONS</span>
                   <span class="specs-header-badge">RERA ON RECORD</span>
                 </div>
-                <div class="spec-row">
-                  <div class="spec-label">PROJECT</div>
-                  <div class="spec-value">My Home Codename Anandam, Kadugodi-Hoskote Road (SH-35), Whitefield Annex, Bangalore 560067</div>
-                </div>
-                <div class="spec-row">
-                  <div class="spec-label">DEVELOPER</div>
-                  <div class="spec-value">My Home Group &middot; 40+ Years of Engineering Pedigree</div>
-                </div>
-                <div class="spec-row">
-                  <div class="spec-label">CONFIGURATIONS</div>
-                  <div class="spec-value">2 BHK Luxury, 2.5 BHK Premium, 3 BHK Grand &amp; 4 BHK Presidential High-Rise Suites</div>
-                </div>
-                <div class="spec-row">
-                  <div class="spec-label">LAND &amp; SCALE</div>
-                  <div class="spec-value">52+ acres &middot; 27 high-rise towers &middot; G + 38 to 48 Floors &middot; 80% green landscape</div>
-                </div>
-                <div class="spec-row">
-                  <div class="spec-label">SALEABLE AREA</div>
-                  <div class="spec-value">1,225 to 2,650 sq ft (Low Density: 4 to 6 units per floor)</div>
-                </div>
-                <div class="spec-row spec-row-price">
-                  <div class="spec-label">PRICE</div>
-                  <div class="spec-value">
-                    <span class="spec-price-strong">From &#8377;5.40 Cr*</span>
-                    <button class="spec-quote-btn" type="button" data-scroll-enquire>Get Price List &rarr;</button>
+                <div id="project-specs-rows">
+                  <div class="spec-row">
+                    <div class="spec-label">PROJECT</div>
+                    <div class="spec-value">My Home Codename Anandam, Kadugodi-Hoskote Road (SH-35), Whitefield Annex, Bangalore 560067</div>
+                  </div>
+                  <div class="spec-row">
+                    <div class="spec-label">DEVELOPER</div>
+                    <div class="spec-value">My Home Group &middot; 40+ Years of Engineering Pedigree</div>
+                  </div>
+                  <div class="spec-row">
+                    <div class="spec-label">CONFIGURATIONS</div>
+                    <div class="spec-value">2 BHK Luxury, 2.5 BHK Premium, 3 BHK Grand &amp; 4 BHK Presidential High-Rise Suites</div>
+                  </div>
+                  <div class="spec-row">
+                    <div class="spec-label">LAND &amp; SCALE</div>
+                    <div class="spec-value">52+ acres &middot; 27 high-rise towers &middot; G + 38 to 48 Floors &middot; 80% green landscape</div>
+                  </div>
+                  <div class="spec-row">
+                    <div class="spec-label">SALEABLE AREA</div>
+                    <div class="spec-value">1,225 to 2,650 sq ft (Low Density: 4 to 6 units per floor)</div>
+                  </div>
+                  <div class="spec-row spec-row-price">
+                    <div class="spec-label">PRICE</div>
+                    <div class="spec-value">
+                      <span class="spec-price-strong">From &#8377;1.35 Cr*</span>
+                      <button class="spec-quote-btn" type="button" data-scroll-enquire>Get Price List &rarr;</button>
+                    </div>
+                  </div>
+                  <div class="spec-row">
+                    <div class="spec-label">STATUS</div>
+                    <div class="spec-value">Pre-Launch / EOI &middot; Phase 1 (Late 2029 - 2030)</div>
+                  </div>
+                  <div class="spec-row spec-row-rera">
+                    <div class="spec-label">K-RERA NO.</div>
+                    <div class="spec-value rera-value">
+                      <span>Karnataka RERA Applied / Pre-Launch EOI Acknowledgment</span>
+                    </div>
                   </div>
                 </div>
-                <div class="spec-row">
-                  <div class="spec-label">STATUS</div>
-                  <div class="spec-value">Pre-Launch / EOI &middot; Phase 1 (Late 2029 - 2030)</div>
-                </div>
-                <div class="spec-row spec-row-rera">
-                  <div class="spec-label">K-RERA NO.</div>
-                  <div class="spec-value rera-value">
-                    <span>Karnataka RERA Applied / Pre-Launch EOI Acknowledgment</span>
-                  </div>
-                </div>
-                <div class="intro-chateau-badges">
+                <div class="intro-chateau-badges" id="project-spec-badges">
                   <h3 class="intro-highlights-heading">PROJECT HIGHLIGHTS</h3>
                   <span class="intro-badge">&#10022; 52-Acre Master Township</span>
                   <span class="intro-badge">&#10022; 1,00,000+ Sq Ft Mega Club</span>
@@ -471,7 +474,7 @@
             <div class="section-kicker"><span>— INVESTMENT —</span></div>
             <h2 class="pricing-heading-title">My Home Codename Anandam <em>Indicative Price List 2026</em></h2>
             <p class="pricing-lead-text">
-              Pre-launch Expression of Interest (EOI) prices start from ₹1.35 Cr* for 2 BHK Luxury residences. Four configurations from 1,225 to 2,650 sq ft saleable; unit pricing depends on floor height, view orientation, and configuration. Ask for today's pre-launch cost sheet and priority allocation details.
+              Pre-launch Expression of Interest (EOI) prices start from ₹1.35 Cr* for 2 BHK Luxury residences. Four configurations from 1,225 to 2,650 sq ft saleable; unit pricing depends on floor height, view orientation, and configuration. Unlock today's pre-launch price sheet and priority allocation details below.
             </p>
           </div>
 
@@ -581,7 +584,7 @@
             <div class="section-kicker"><span>— HOMES —</span></div>
             <h2 class="floorplans-heading-title">Floor Plans &amp;<br class="mobile-br"><em>Unit Sizes</em></h2>
             <p class="floorplans-lead-text">
-              Four luxury apartment typologies, all taken from the developer's official unit plan set: 2 BHK Luxury at 1,225 - 1,280 sq ft, 2.5 BHK Premium at 1,450 - 1,520 sq ft, 3 BHK Grand at 1,820 - 2,150 sq ft, and 4 BHK Presidential at 2,450 - 2,650 sq ft. Figures are super built-up areas for each typology; the RERA carpet area is shown alongside.
+              Four luxury apartment typologies, all taken from the developer's official unit plan set: 2 BHK Luxury (1,225 - 1,280 sq ft), 2.5 BHK Premium (1,450 - 1,520 sq ft), 3 BHK Grand (1,820 - 2,150 sq ft), and 4 BHK Presidential (2,450 - 2,650 sq ft). Unlock each configuration below to view detailed architectural drawings, carpet breakup and unit dimensions.
             </p>
           </div>
 
@@ -788,10 +791,10 @@
                 <label class="visit-label" for="visit-config">LOOKING FOR</label>
                 <div class="visit-select-box">
                   <select class="visit-select" id="visit-config" name="homeType">
-                    <option value="2 BHK Luxury (1,225 - 1,280 sq. ft.)">2 BHK Luxury (1,225 - 1,280 sq ft)</option>
-                    <option value="2.5 BHK Premium (1,450 - 1,520 sq. ft.)">2.5 BHK Premium (1,450 - 1,520 sq ft)</option>
-                    <option value="3 BHK Grand (1,820 - 2,150 sq. ft.)">3 BHK Grand (1,820 - 2,150 sq ft)</option>
-                    <option value="4 BHK Presidential (2,450 - 2,650 sq. ft.)">4 BHK Presidential (2,450 - 2,650 sq ft)</option>
+                    <option value="2 BHK Luxury">2 BHK Luxury</option>
+                    <option value="2.5 BHK Premium">2.5 BHK Premium</option>
+                    <option value="3 BHK Grand">3 BHK Grand</option>
+                    <option value="4 BHK Presidential">4 BHK Presidential</option>
                   </select>
                   <span class="select-arrow-icon" aria-hidden="true">&#9662;</span>
                 </div>
@@ -1046,10 +1049,10 @@
             <label class="popup-label" for="popup-config">LOOKING FOR</label>
             <div class="popup-select-box">
               <select class="popup-select" id="popup-config" name="homeType">
-                <option value="2 BHK Luxury (1,225 - 1,280 sq ft)">2 BHK Luxury (1,225 - 1,280 sq ft)</option>
-                <option value="2.5 BHK Premium (1,450 - 1,520 sq ft)">2.5 BHK Premium (1,450 - 1,520 sq ft)</option>
-                <option value="3 BHK Grand (1,820 - 2,150 sq ft)">3 BHK Grand (1,820 - 2,150 sq ft)</option>
-                <option value="4 BHK Presidential (2,450 - 2,650 sq ft)">4 BHK Presidential (2,450 - 2,650 sq ft)</option>
+                <option value="2 BHK Luxury">2 BHK Luxury</option>
+                <option value="2.5 BHK Premium">2.5 BHK Premium</option>
+                <option value="3 BHK Grand">3 BHK Grand</option>
+                <option value="4 BHK Presidential">4 BHK Presidential</option>
               </select>
               <span class="popup-select-arrow" aria-hidden="true">&#9662;</span>
             </div>

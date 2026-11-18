@@ -8,6 +8,9 @@ window.anandamData = window.florenneData = {
   locationName: "Whitefield Annex, Whitefield-Hoskote Road, East Bengaluru",
   salesPhone: "+91 74116 62228",
   salesWhatsappNumber: "917411662228",
+  pricingLeadText: "Pre-launch Expression of Interest (EOI) prices start from ₹1.60 Cr* for 2 BHK Luxury residences. Four configurations from 1,225 to 2,650 sq ft saleable; unit pricing depends on floor height, view orientation, and configuration. Unlock today's pre-launch price sheet and priority allocation details below.",
+  floorplansLeadText: "Four luxury apartment typologies, all taken from the developer's official unit plan set: 2 BHK Luxury, 2.5 BHK Premium, 3 BHK Grand, and 4 BHK Presidential. Unlock each configuration below to view detailed architectural drawings, carpet breakup and unit dimensions.",
+
 
   facts: [
     { value: "52.5 Acres", label: "Mixed-Use Township" },
@@ -26,19 +29,23 @@ window.anandamData = window.florenneData = {
     { value: "My Home Group", label: "40+ YEARS LEGACY" }
   ],
   projectDetails: [
-    { label: "Project", value: "Codename Anandam (Bengaluru Debut)" },
-    { label: "Developer", value: "My Home Group" },
-    { label: "Architectural Concept", value: "Forest-themed mixed-use development built around unhurried everyday joy" },
-    { label: "Location", value: "Whitefield Annex, Whitefield-Hoskote Road (SH-35), Konadasapura, East Bengaluru" },
-    { label: "Land & Expanse", value: "52.5 Acres with vehicle-free podiums, landscaped zones, and 3,000+ trees" },
-    { label: "Towers & Scale", value: "20+ towers rising up to 44 floors (Phase 1 features 8 towers and ~1,840 units)" },
-    { label: "Structure", value: "3 Basements + Ground + 38 to 44 Floors" },
-    { label: "Configurations", value: "Premium 2, 3 & 4 BHK Residences" },
-    { label: "Saleable Area", value: "~1,255 sq. ft. to ~2,610 sq. ft. (Low density: 4 to 6 units per floor)" },
-    { label: "Indicative Pricing", value: "Starting from approx. ₹1.60 Cr* up to ₹3.72 Cr*" },
-    { label: "Clubhouse", value: "~1 Lakh+ sq. ft. central clubhouse on a ~2-acre campus" },
-    { label: "Possession Timeline", value: "Expected by Late 2029 to December 2030 (Phase 1)" },
-    { label: "RERA Status", value: "Subject to RERA Registration / Priority Registration Open (CSF)" }
+    { label: "PROJECT", value: "My Home Codename Anandam, Kadugodi-Hoskote Road (SH-35), Whitefield Annex, Bangalore 560067" },
+    { label: "DEVELOPER", value: "My Home Group · 40+ Years of Engineering Pedigree" },
+    { label: "CONFIGURATIONS", value: "2 BHK Luxury, 2.5 BHK Premium, 3 BHK Grand & 4 BHK Presidential High-Rise Suites" },
+    { label: "LAND & SCALE", value: "52+ acres · 27 high-rise towers · G + 38 to 48 Floors · 80% green landscape" },
+    { label: "PRICE", value: "From ₹1.60 Cr*", isPrice: true, buttonText: "Get Price List →" },
+    { label: "STATUS", value: "Pre-Launch / EOI · Phase 1 (Late 2029 - 2030)" },
+    {
+      label: "K-RERA NO.",
+      value: "Karnataka RERA Applied / Pre-Launch EOI Acknowledgment",
+      isRera: true
+    }
+  ],
+  specHighlights: [
+    "52-Acre Master Township",
+    "1,00,000+ Sq Ft Mega Club",
+    "G+38 to G+48 Iconic Towers",
+    "80% Forest Greens & Eco-Trails"
   ],
   highlights: [
     "A 52.5-acre landmark mixed-use development in Whitefield Annex, marking the grand Bengaluru debut of the My Home Group after a 40-year legacy.",
@@ -73,21 +80,31 @@ window.anandamData = window.florenneData = {
   prices: [
     {
       brand: "CODENAME ANANDAM",
-      configuration: "2 BHK Premium",
+      configuration: "2 BHK Luxury",
       typologyDesc: "2 Bed · 2 Bath · Balcony",
       plot: "High-Rise Tower",
-      carpet: "",
-      area: "~1,100 - 1,450 sq. ft.",
-      starting: "₹1.60 Cr - ₹1.71 Cr*",
+      carpet: "860 sq. ft.*",
+      area: "1,225 - 1,280 sq. ft.",
+      starting: "₹1.35 Cr*",
       subLabel: "INDICATIVE PRICE"
     },
     {
       brand: "CODENAME ANANDAM",
-      configuration: "3 BHK Luxury",
+      configuration: "2.5 BHK Premium",
+      typologyDesc: "2.5 Bed · 2 Bath · Balcony",
+      plot: "High-Rise Tower",
+      carpet: "1,010 sq. ft.*",
+      area: "1,450 - 1,520 sq. ft.",
+      starting: "Price on Request",
+      subLabel: "INDICATIVE PRICE"
+    },
+    {
+      brand: "CODENAME ANANDAM",
+      configuration: "3 BHK Grand",
       typologyDesc: "3 Bed · 3 Bath · Spacious Deck",
       plot: "High-Rise Tower",
-      carpet: "",
-      area: "~1,565 - 2,100 sq. ft.",
+      carpet: "1,280 - 1,480 sq. ft.*",
+      area: "1,820 - 2,150 sq. ft.",
       starting: "Price on Request",
       subLabel: "INDICATIVE PRICE"
     },
@@ -96,8 +113,8 @@ window.anandamData = window.florenneData = {
       configuration: "4 BHK Presidential",
       typologyDesc: "4 Bed · 4 Bath · Palatial Living",
       plot: "High-Rise Tower",
-      carpet: "",
-      area: "~1,950 - 2,610 sq. ft.",
+      carpet: "1,720 - 1,890 sq. ft.*",
+      area: "2,450 - 2,650 sq. ft.",
       starting: "Up to ₹3.72 Cr*",
       subLabel: "INDICATIVE PRICE"
     }
