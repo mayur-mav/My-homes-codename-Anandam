@@ -13,19 +13,19 @@ window.anandamData = window.florenneData = {
 
 
   facts: [
-    { value: "52.5 Acres", label: "Mixed-Use Township" },
-    { value: "20+ Towers", label: "Up to 44 Floors" },
+    { value: "52 Acres", label: "Integrated Township" },
+    { value: "1 Acre", label: "Dedicated Temple" },
     { value: "1 Lakh+ Sq. Ft.", label: "Clubhouse" },
-    { value: "2, 3 & 4 BHK", label: "~1,255 to ~2,610 Sq. Ft." }
+    { value: "2, 3 & 4 BHK", label: "Configurations" }
   ],
   statsRibbon: [
-    { value: "52.5 Acres", label: "MIXED-USE DEVELOPMENT" },
-    { value: "3B + G + 38 to 44", label: "TOWER FLOORS" },
-    { value: "~1,255 - 2,610", label: "SQ. FT. RANGE" },
+    { value: "52 Acres", label: "INTEGRATED TOWNSHIP" },
+    { value: "1 Acre", label: "DEDICATED TEMPLE" },
+    { value: "3B + G + 48", label: "TOWER FLOORS" },
+    { value: "1 Lakh+ Sq. Ft.", label: "GRAND CLUBHOUSE" },
+    { value: "80%", label: "OPEN FOREST GREENS" },
     { value: "2, 3 & 4 BHK", label: "CONFIGURATIONS" },
     { value: "Late 2029 / 2030", label: "POSSESSION" },
-    { value: "5,000+", label: "APARTMENTS" },
-    { value: "1 Lakh+ Sq. Ft.", label: "CLUBHOUSE" },
     { value: "My Home Group", label: "40+ YEARS LEGACY" }
   ],
   projectDetails: [
@@ -42,8 +42,9 @@ window.anandamData = window.florenneData = {
     }
   ],
   specHighlights: [
-    "52-Acre Master Township",
-    "1,00,000+ Sq Ft Mega Club",
+    "52-Acre Integrated Township",
+    "1-Acre Dedicated Temple Sanctuary",
+    "1 Lakh+ Sq Ft Mega Club",
     "G+38 to G+48 Iconic Towers",
     "80% Forest Greens & Eco-Trails"
   ],
