@@ -357,37 +357,184 @@ iframe { display: block; max-width: 100%; }
 
 .hero {
   position: relative;
-  min-height: calc(100vh - 40px);
-  min-height: 720px;
+  width: 100%;
+  min-height: max(760px, calc(100vw * 720 / 1000));
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   color: #ffffff;
   background: #07261c;
-  padding-block: 98px 34px;
+  padding-top: 114px;
+  padding-bottom: 0;
+  box-sizing: border-box;
 }
 .hero-image, .hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero-image {
   object-fit: cover;
-  object-position: center 38%;
-  filter: brightness(1.24) contrast(1.02) saturate(1.1);
+  object-position: center center;
+  filter: none;
 }
 .hero-shade {
   background:
-    linear-gradient(90deg, rgba(5, 26, 19, 0.48) 0%, rgba(7, 38, 28, 0.26) 42%, rgba(7, 38, 28, 0.05) 68%, transparent 100%),
-    linear-gradient(180deg, rgba(5, 26, 19, 0.20) 0%, transparent 28%, transparent 72%, rgba(5, 26, 19, 0.38) 100%);
+    linear-gradient(90deg, rgba(7, 38, 28, 0.45) 0%, rgba(7, 38, 28, 0.15) 35%, transparent 65%);
 }
 .hero-content {
   position: relative;
   z-index: 2;
-  display: grid;
-  grid-template-columns: minmax(0, 1.08fr) 440px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: clamp(24px, 3.5vw, 44px);
-  padding-top: 14px;
-  padding-bottom: 14px;
+  gap: clamp(24px, 3.5vw, 48px);
+  padding-top: clamp(16px, 2.5vh, 32px);
+  padding-bottom: clamp(12px, 2vh, 24px);
+  margin-top: clamp(10px, 2vh, 28px) !important;
+  margin-bottom: auto !important;
+  margin-inline: auto !important;
+  width: min(1440px, calc(100% - clamp(32px, 5vw, 80px)));
 }
-.hero-copy { max-width: 640px; }
+.hero-copy {
+  max-width: 580px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Brand title matching creative (Exact Sobha One World layout) */
+.hero-brand-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 22px;
+}
+.hero-brand-prefix {
+  font-family: "Montserrat", var(--sans);
+  font-size: clamp(13px, 1.25vw, 15px);
+  font-weight: 800;
+  letter-spacing: 0.36em;
+  color: #dfb76c;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
+}
+.hero-brand-main {
+  font-family: "Montserrat", var(--sans);
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  line-height: 1.08;
+  margin: 6px 0 10px;
+  text-transform: uppercase;
+  text-shadow: 0 3px 22px rgba(0, 0, 0, 0.9), 0 1px 4px rgba(0, 0, 0, 0.95);
+}
+.hero-brand-loc {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 440px;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+.hero-loc-line {
+  flex: 1;
+  height: 1.5px;
+  background: linear-gradient(90deg, rgba(223, 183, 108, 0.9) 0%, rgba(223, 183, 108, 0.2) 100%);
+}
+.hero-brand-loc .hero-loc-line:last-child {
+  background: linear-gradient(90deg, rgba(223, 183, 108, 0.2) 0%, rgba(223, 183, 108, 0.9) 100%);
+}
+.hero-loc-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  background: rgba(7, 38, 28, 0.85);
+  border: 1.5px solid rgba(223, 183, 108, 0.65);
+  border-radius: 9999px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.hero-loc-pin {
+  width: 13px;
+  height: 13px;
+  color: #dfb76c;
+  flex-shrink: 0;
+}
+.hero-loc-text {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Two Highlighted Feature Boxes (Exact match to Sobha One World layout) */
+.hero-feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 380px;
+  margin-top: 4px;
+}
+.hero-feature-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 22px;
+  background: linear-gradient(135deg, rgba(7, 38, 28, 0.74) 0%, rgba(4, 20, 15, 0.82) 100%);
+  border: 1.5px solid rgba(223, 183, 108, 0.48);
+  border-radius: 13px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-sizing: border-box;
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.hero-feature-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(223, 183, 108, 0.8);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(223, 183, 108, 0.18);
+}
+.hero-feature-icon-wrap {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(223, 183, 108, 0.12);
+  border: 1px solid rgba(223, 183, 108, 0.32);
+}
+.hero-feature-text {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-family: var(--sans);
+  line-height: 1.25;
+}
+.hero-feature-gold {
+  font-size: clamp(18px, 1.8vw, 21px);
+  font-weight: 700;
+  color: #dfb76c;
+  letter-spacing: 0.02em;
+}
+.hero-feature-title {
+  font-size: clamp(18px, 1.8vw, 21px);
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+}
 .hero-launch-pill { display: inline-flex; align-items: center; width: fit-content; max-width: 100%; box-sizing: border-box; padding: 8px 14px; margin-bottom: 16px; background: rgba(7, 38, 28, 0.68); border: 1px solid rgba(212, 175, 55, 0.72); border-radius: 12px; box-shadow: 0 4px 16px rgba(4, 20, 15, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.08); color: #e8c96a; font-family: var(--sans); font-size: clamp(11px, 1.1vw, 14px); font-weight: 500; line-height: 1.45; letter-spacing: 0.01em; text-transform: none; }
 .pill-dot { color: #34d399; font-size: 9px; line-height: 1; }
 h1, h2, h3, p { margin-top: 0; }
@@ -406,6 +553,8 @@ h1, h2, h3, p { margin-top: 0; }
 .badge-pill { display: inline-flex; align-items: center; gap: 7px; background: rgba(13, 59, 44, 0.65); border: 1px solid rgba(27, 97, 73, 0.3); border-radius: 9999px; padding: 5px 13px; font-size: 11px; font-weight: 500; color: #ffffff; backdrop-filter: blur(6px); }
 .badge-check { color: #34d399; stroke: #34d399; flex-shrink: 0; }
 .hero-caption { position: absolute; right: 38px; bottom: 23px; left: 38px; display: flex; justify-content: space-between; color: rgba(255,255,255,.68); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; pointer-events: none; }
+
+.hero-mobile-call-strip { display: none !important; }
 
 .hero-enquiry-card {
   background: #ffffff;
@@ -5631,9 +5780,9 @@ figcaption#gallery-caption {
 }
 @media (max-width: 1024px) {
   .hero-content {
-    grid-template-columns: 1fr !important;
-    gap: 36px !important;
-    padding-top: 110px !important;
+    flex-direction: column !important;
+    gap: 28px !important;
+    padding-top: 100px !important;
     width: min(var(--page-width), calc(100% - 48px)) !important;
     margin-inline: auto !important;
   }
@@ -5645,6 +5794,13 @@ figcaption#gallery-caption {
     margin-inline: auto !important;
     width: 100% !important;
     max-width: 640px !important;
+  }
+  .hero-brand-block {
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .hero-feature-cards {
+    margin-inline: auto !important;
   }
   .hero-launch-pill {
     margin-inline: auto !important;
@@ -5859,127 +6015,193 @@ figcaption#gallery-caption {
     margin-inline: auto !important;
   }
   .hero {
-    min-height: auto;
+    min-height: 100svh;
     overflow: hidden !important;
     width: 100% !important;
     max-width: 100% !important;
-    display: block;
-    padding-top: 78px !important;
-    padding-bottom: 24px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-top: 56px !important;
+    padding-bottom: 74px !important;
     box-sizing: border-box !important;
   }
   .hero-shade {
     background:
-      linear-gradient(180deg, rgba(5, 26, 19, 0.48) 0%, rgba(7, 38, 28, 0.22) 45%, rgba(5, 26, 19, 0.48) 100%);
+      linear-gradient(180deg, rgba(7, 38, 28, 0.45) 0%, rgba(7, 38, 28, 0.08) 35%, transparent 65%);
+  }
+  .hero-image {
+    object-position: center top !important;
+    filter: none !important;
   }
   .hero-content {
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: 440px !important;
     padding-inline: 16px !important;
     box-sizing: border-box !important;
-    grid-template-columns: 1fr;
-    gap: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0 !important;
+    padding-top: clamp(8px, 2vh, 16px) !important;
+    padding-bottom: clamp(6px, 1.5vh, 12px) !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
   }
   .hero-copy {
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: 380px !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
     margin-inline: auto !important;
-  }
-  .hero-launch-pill {
-    max-width: 100%;
-    padding: 7px 11px;
-    font-size: clamp(11px, 3.2vw, 13px);
-    line-height: 1.45;
-    margin-bottom: 10px;
-    margin-inline: auto !important;
-    text-align: center !important;
-    justify-content: center !important;
-  }
-  .hero-title {
-    font-size: clamp(23px, 6.6vw, 29px) !important;
-    line-height: 1.2 !important;
-    letter-spacing: -0.015em !important;
-    margin-bottom: 10px !important;
-    word-break: normal !important;
-    text-align: center !important;
-    margin-inline: auto !important;
-    width: 100% !important;
-  }
-  .hero-description {
-    font-size: 13px !important;
-    line-height: 1.5 !important;
-    margin-bottom: 12px !important;
-    color: rgba(255, 255, 255, 0.92) !important;
-    width: 100% !important;
-    max-width: 440px !important;
-    text-align: center !important;
-    margin-inline: auto !important;
-  }
-  .desc-desktop { display: none !important; }
-  .desc-mobile { display: inline !important; }
-  .hero-price-glass {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-    padding: 12px 14px !important;
     margin-bottom: 0 !important;
-    margin-inline: auto !important;
-    text-align: center !important;
   }
-  .price-glass-eyebrow {
-    font-size: 8.5px;
+  .hero-brand-block {
+    align-items: center !important;
     text-align: center !important;
+    margin-bottom: 16px !important;
   }
-  .price-glass-main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
+  .hero-brand-prefix {
+    font-size: 11.5px !important;
+    letter-spacing: 0.28em !important;
+  }
+  .hero-brand-main {
+    font-size: 30px !important;
+    margin: 2px 0 6px !important;
+    letter-spacing: 0.03em !important;
+  }
+  .hero-brand-loc {
+    max-width: 360px !important;
+    gap: 8px !important;
+    margin-bottom: 14px !important;
     justify-content: center !important;
-    gap: 4px 8px;
-    text-align: center !important;
   }
-  .price-val {
-    font-size: 23px !important;
+  .hero-loc-pill {
+    padding: 5px 12px !important;
+    gap: 6px !important;
   }
-  .price-dot-onwards {
-    font-size: 12px;
+  .hero-loc-pin {
+    width: 12px !important;
+    height: 12px !important;
   }
-  .price-config-note {
+  .hero-loc-text {
+    font-size: 10px !important;
+    letter-spacing: 0.14em !important;
+  }
+  .hero-feature-cards {
     width: 100% !important;
-    margin: 4px 0 0 0 !important;
-    font-size: 11px !important;
-    color: #86efac !important;
-    white-space: normal !important;
-    word-break: normal !important;
-    text-align: center !important;
-  }
-  /* Mobile: Hide the pill-shaped feature list so the lead form shifts up */
-  .hero-badges {
-    display: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    height: 0 !important;
-    overflow: hidden !important;
-  }
-  .badge-pill {
-    display: none !important;
-  }
-  .hero-brochure-btn { display: none !important; }
-  .hero-credit-line { display: none !important; }
-  .hero-enquiry-card {
-    width: 100% !important;
-    max-width: 480px !important;
-    box-sizing: border-box !important;
-    margin-top: 0 !important;
+    max-width: 350px !important;
+    gap: 10px !important;
     margin-inline: auto !important;
-    padding: 20px 16px 16px !important;
-    border-radius: 14px !important;
+    margin-bottom: 14px !important;
+  }
+  .hero-feature-card {
+    padding: 11px 16px !important;
+    gap: 14px !important;
+    border-radius: 11px !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+  .hero-feature-icon-wrap {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .hero-feature-icon-wrap svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .hero-feature-gold {
+    font-size: 16px !important;
+  }
+  .hero-feature-title {
+    font-size: 16px !important;
+  }
+  .hero-enquiry-card {
+    display: none !important;
+  }
+
+  /* Mobile: Call & Copy Action Strip (Matching Sobha One World) */
+  .hero-mobile-call-strip {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+    background: rgba(7, 38, 28, 0.88);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(212, 175, 55, 0.45);
+    border-radius: 12px;
+    padding: 6px 8px 6px 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55), 0 0 16px rgba(223, 183, 108, 0.14);
+    margin-top: 14px;
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .hero-call-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 6px;
+  }
+  .call-action-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #dfb76c 0%, #c5a059 100%);
+    color: #07261c;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(197, 160, 89, 0.4);
+  }
+  .call-action-body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+  .call-action-eyebrow {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #dfb76c;
+    text-transform: uppercase;
+  }
+  .call-action-number {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    font-family: var(--sans);
+  }
+  .hero-copy-action {
+    background: rgba(212, 175, 55, 0.16);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 8px;
+    padding: 6px 11px;
+    color: #dfb76c;
+    font-size: 11.5px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+  .hero-copy-action:active,
+  .hero-copy-action.is-copied {
+    background: linear-gradient(135deg, #dfb76c 0%, #c5a059 100%) !important;
+    border-color: #dfb76c !important;
+    color: #07261c !important;
+    font-weight: 700 !important;
+    box-shadow: 0 2px 10px rgba(223, 183, 108, 0.4) !important;
+  }
+  .hero-copy-action.is-copied svg {
+    stroke: #07261c !important;
   }
   .hero-enquiry-card .card-heading .card-title { font-size: 16.5px; margin-bottom: 2px; }
   .hero-enquiry-card .card-heading .card-subtitle { font-size: 11px; line-height: 1.35; margin-bottom: 8px; }
