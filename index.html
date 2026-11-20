@@ -20,10 +20,10 @@
     <noscript>
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     </noscript>
-    <link rel="stylesheet" href="styles.css?v=38.7">
-    <script src="data.js?v=38.7" defer></script>
+    <link rel="stylesheet" href="styles.css?v=38.8">
+    <script src="data.js?v=38.8" defer></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
-    <script src="script.js?v=38.7" defer></script>
+    <script src="script.js?v=38.8" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -62,7 +62,11 @@
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/hero.webp" alt="My Home Codename Anandam luxury 52-acre high-rise forest township in Bengaluru" width="1200" height="820" fetchpriority="high" loading="eager" decoding="sync" draggable="false">
+        <picture class="hero-picture">
+          <source media="(max-width: 768px)" srcset="assets/hero-mobile.webp" type="image/webp">
+          <source media="(min-width: 769px)" srcset="assets/hero.webp" type="image/webp">
+          <img class="hero-image" src="assets/hero.webp" alt="My Home Codename Anandam luxury 52-acre high-rise forest township in Bengaluru" width="1200" height="820" fetchpriority="high" loading="eager" decoding="sync" draggable="false">
+        </picture>
         <div class="hero-shade"></div>
         <div class="hero-content page-width">
           <div class="hero-copy">
